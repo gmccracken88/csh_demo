@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join CSH | Colorado Society of Histotechnology</title>
+<meta name="description" content="Membership is open to histology technicians, technologists, students and retirees.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<script src="../assets/js/site.js" defer></script>
+</head>
+<body>
+<noscript><p class="wrap"><a href="../index.html">Colorado Society of Histotechnology: home</a></p></noscript>
+<main id="main">
+<div class="page-head"><div class="wrap"><p class="crumbs"><a href="../index.html">Home</a> / <a href="../membership/benefits.html">Membership</a> / </p><h1>Join CSH</h1><p>Membership is open to histology technicians, technologists, students and retirees.</p></div></div>
+<div class="content"><div class="wrap"><p class="note"><strong>Demo screen.</strong> This sign-up shows how joining could look. It does not create an account or take payment. To join for real, use <a href="https://coloradohisto.org/content.aspx?page_id=60&amp;club_id=669574">the current site</a>.</p>
+<ol class="steps" aria-label="Sign-up steps"><li>1. Membership type</li><li>2. Your details</li><li>3. Review and pay</li></ol>
+<form data-steps data-demo="join-done">
+<fieldset data-step><legend>Membership type</legend>
+<label class="choice"><input type="radio" name="type" value="Member" checked> Member <span class="hint">for technicians and technologists working in histology</span></label>
+<label class="choice"><input type="radio" name="type" value="Student"> Student <span class="hint">for people training in histotechnology</span></label>
+<label class="choice"><input type="radio" name="type" value="Retired"> Retired</label>
+<p class="hint">Annual dues for each type would be shown here.</p>
+<button class="btn" type="button" data-next>Next: your details</button>
+</fieldset>
+<fieldset data-step hidden><legend>Your details</legend>
+<div class="row">
+<div class="field"><label for="j-first">First name</label><input id="j-first" type="text" autocomplete="given-name" required></div>
+<div class="field"><label for="j-last">Last name</label><input id="j-last" type="text" autocomplete="family-name" required></div>
+</div>
+<div class="field"><label for="j-email">Email address</label><input id="j-email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="j-employer">Employer or school <span class="hint">(optional)</span></label><input id="j-employer" type="text" autocomplete="organization"></div>
+<div class="field"><label for="j-city">City</label><input id="j-city" type="text" autocomplete="address-level2" required></div>
+<button class="btn quiet" type="button" data-back>Back</button>
+<button class="btn" type="button" data-next>Next: review and pay</button>
+</fieldset>
+<fieldset data-step hidden><legend>Review and pay</legend>
+<p>On the real site, this step shows your dues and takes payment by credit card through Stripe, or lets you choose to pay by check.</p>
+<label class="choice"><input type="checkbox" required> I confirm my details are correct.</label>
+<button class="btn quiet" type="button" data-back>Back</button>
+<button class="btn" type="submit">Join CSH</button>
+</fieldset>
+</form>
+<div class="status" id="join-done" hidden><strong>Joined (demo).</strong> On the real site you would now get a welcome email and a member login. Nothing was sent or saved.</div>
+<p>Already a member? <a href="../login.html">Log in to renew your membership</a>.</p></div></div>
+</main>
+</body>
+</html>

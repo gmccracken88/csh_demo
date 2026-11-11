@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Member directory | Colorado Society of Histotechnology</title>
+<meta name="description" content="Find other CSH members.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<script src="../assets/js/demo-data.js" defer></script>
+<script src="../assets/js/demo-pages.js" defer></script>
+<script src="../assets/js/site.js" defer></script>
+</head>
+<body data-members>
+<noscript><p class="wrap"><a href="../index.html">Colorado Society of Histotechnology: home</a></p></noscript>
+<main id="main">
+<div class="page-head"><div class="wrap"><p class="crumbs"><a href="../index.html">Home</a> / <a href="../members/index.html">Members</a> / </p><h1>Member directory</h1><p>Find other CSH members.</p></div></div>
+<div class="content"><div class="wrap member-layout"><nav class="member-nav" aria-label="Member pages" data-member-nav></nav><div><p class="note"><strong>Demo screen.</strong> Everything on this page is made-up sample data.</p>
+<form role="search" onsubmit="return false" style="max-width:none">
+<div class="row" style="grid-template-columns:2fr 1fr">
+<div class="field"><label for="d-q">Search by name, employer or city</label><input id="d-q" type="search"></div>
+<div class="field"><label for="d-type">Membership type</label><select id="d-type"><option value="">All types</option><option>Member</option><option>Student</option><option>Retired</option></select></div>
+</div>
+</form>
+<p id="d-count" aria-live="polite"></p>
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Name</th><th scope="col">Type</th><th scope="col">Employer</th><th scope="col">City</th><th scope="col">Email</th></tr></thead>
+<tbody id="d-rows"></tbody></table></div></div></div></div>
+</main>
+</body>
+</html>
